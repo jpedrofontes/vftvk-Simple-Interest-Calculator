@@ -1,19 +1,58 @@
 body {
-    background-color: black;
-    font-family: arial;
-    color: white;
+  background-color: black;
+  font-family: arial;
+  color: white;
 }
 
 h1 {
-    color: grey;
-    font-family: verdana;
+  color: grey;
+  font-family: verdana;
+  text-align: center;
 }
 
 .maindiv {
-    background-color: white;
-    color: black;
-    width: 300px;
-    padding: 20px;
-    border-radius: 25px;
-    align: center;
+  background-color: white;
+  color: black;
+  width: 400px;
+  padding: 20px;
+  border-radius: 25px;
+  margin: 10px;
+}
+
+.container {
+  width: 75%;
+  margin: auto;
+  text-align: center;
+}
+
+.one {
+  width: 40%;
+  float: left;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.two {
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.three {
+  width: 100%;
+  float: left;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+#compute {
+  font-size: smaller;
+}
+
+#result {
+  margin-bottom: 5px;
+}
+
+footer {
+  width: 75%;
+  margin-top: 15px;
 }
